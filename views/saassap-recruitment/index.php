@@ -236,11 +236,11 @@
                                 <input type="hidden" name="qualificationsField" id="qualificationsField" value="1">   
                                 <div id="educational-fields">
                                 <div class="row">                 
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <input type="text" class="form-control" required name="qualifications[1][institution]" id="institution-1" placeholder="Tertiary Institution / School:">
                                     </div>
 
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-2">
                                         <input type="text" class="form-control" required name="qualifications[1][institution-location]" id="institution-location-1" placeholder="Location">
                                     </div>
                                   
@@ -249,7 +249,7 @@
                                     </div>
                                     
                                     <div class="form-group col-md-3">
-                                        <input type="number" class="form-control" required name="qualifications[1][year-completed]" id="year-completed" placeholder="Year Completed">
+                                        <input type="number" class="form-control" required name="qualifications[1][year-completed]" id="year-completed-1" placeholder="Year Completed">
                                     </div>
                                      
                                 </div>
@@ -259,57 +259,11 @@
                                 <div class="row">
                                     <div class="form-group text-center">
                                     <div class="btn-mine btn-mineprimary">
-                                    <input type="button" value="Add More Field" id="add-fieldsQ">
-                                    <input type="button" value="Remove Field" id="remove-fieldsQ">
+                                    <input type="button" value="Add More" id="add-fieldsQ">
+                                    <input type="button" value="Remove" id="remove-fieldsQ">
                                     </div>
                                     </div>
                                 </div>
-                                <!-- COLUMN 2 EDUCATIONAL QUALIFICATIONS -->
-                                <!-- <div class="row">
-                                    <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="institution" id="institution" placeholder="2. Tertiary Institution / School:">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="institution-location" id="institution-location" placeholder="Location">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="qualification" id="qualification" placeholder="Qualification">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <input type="number" class="form-control" required name="year-completed" id="year-completed" placeholder="Year Completed">
-                                    </div>
-                                </div> -->
-                                <!-- COLUMN 3 EDUCATIONAL QUALIFICATIONS -->
-                                <!-- <div class="row">
-                                    <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="institution" id="institution" placeholder="3. Tertiary Institution / School:">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="institution-location" id="institution-location" placeholder="Location">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="qualification" id="qualification" placeholder="Qualification">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <input type="number" class="form-control" required name="year-completed" id="year-completed" placeholder="Year Completed">
-                                    </div>
-                                </div> -->
-                                <!-- COLUMN 4  EDUCATIONAL QUALIFICATIONS -->
-                                <!-- <div class="row">
-                                    <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="institution" id="institution" placeholder="4. Tertiary Institution / School:">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="institution-location" id="institution-location" placeholder="Location">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="qualification" id="qualification" placeholder="Qualification">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <input type="number" class="form-control" required name="year-completed" id="year-completed" placeholder="Year Completed">
-                                    </div>
-                                </div> -->
-
 
                             </section>
                             <br />
@@ -331,112 +285,41 @@
                                 </div>
                                 <br />
                                 <!-- COLUMN 1 EXPERIENCE -->
+                                <div id="experience-fields">
                                 <div class="row">
                                     <div class="form-group col-md-3">
                                         <span class=" d-inline-flex">1. Recent/Current Employer: </span>
-                                        <input type="text" class="form-control" required name="employer" id="employer" placeholder="type here">
+                                        <input type="text" class="form-control" required name="experience[1][employer]" id="employer-1" placeholder="type here">
                                     </div>
                                     <div class="form-group col-md-3">
                                         <span class=" d-inline-flex">Position held: </span>
-                                        <input type="text" class="form-control" required name="p.position" id="p.position" placeholder="type here">
+                                        <input type="text" class="form-control" required name="experience[1][p.position]" id="p.position-1" placeholder="type here">
                                     </div>
                                     <div class="form-group col-md-3">
                                         <span class=" d-inline-flex"> Appointment Date: </span>
                                         <span class=" d-inline-flex">
-                                            <input type="date" class="form-control" id="appointment-date" required name="appointment-date" placeholder="Appointment Date:">
+                                            <input type="date" class="form-control" id="appointment-date-1" required name="experience[1][appointment-date]" placeholder="Appointment Date:">
                                         </span>
                                     </div>
                                     <div class="form-group col-md-3">
                                         <span class=" d-inline-flex">Termination Date: </span>
                                         <span class=" d-inline-flex">
-                                            <input type="date" class="form-control" id="termination-date" required name="termination-date" placeholder="Termination Date:">
+                                            <input type="date" class="form-control" id="termination-date-1" required name="experience[1][termination-date]" placeholder="Termination Date:">
                                         </span>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <input type="text" class="form-control" required name="duties" id="duties" placeholder="Duties & Responsibilities">
                                 </div>
 
-                                <!-- COLUMN 2 EXPERIENCE -->
                                 <div class="row">
-                                    <div class="form-group col-md-3">
-                                        <span class=" d-inline-flex">2. Employer: </span>
-                                        <input type="text" class="form-control" required name="employer1" id="employer1" placeholder="type here">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <span class=" d-inline-flex">Position held: </span>
-                                        <input type="text" class="form-control" required name="p.position1" id="p.position1" placeholder="type here">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <span class=" d-inline-flex"> Appointment Date: </span>
-                                        <span class=" d-inline-flex">
-                                            <input type="date" class="form-control" id="appointment-date1" required name="appointment-date1" placeholder="Appointment Date:">
-                                        </span>
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <span class=" d-inline-flex">Termination Date: </span>
-                                        <span class=" d-inline-flex">
-                                            <input type="date" class="form-control" id="termination-date1" required name="termination-date1" placeholder="Termination Date:">
-                                        </span>
-                                    </div>
+                                    <input type="text" class="form-control" required name="experience[1][duties]" id="duties-1" placeholder="Duties & Responsibilities">
+                                </div>
                                 </div>
                                 <div class="row">
-                                    <input type="text" class="form-control" required name="duties1" id="duties1" placeholder="Duties & Responsibilities">
-                                </div>
-
-
-                                <!-- COLUMN 3 EXPERIENCE -->
-                                <div class="row">
-                                    <div class="form-group col-md-3">
-                                        <span class=" d-inline-flex">3. Employer: </span>
-                                        <input type="text" class="form-control" required name="employer2" id="employer2" placeholder="type here">
+                                    <div class="form-group text-center">
+                                    <div class="btn-mine btn-mineprimary">
+                                    <input type="button" value="Add More" id="add-fieldsX">
+                                    <input type="button" value="Remove" id="remove-fieldsX">
                                     </div>
-                                    <div class="form-group col-md-3">
-                                        <span class=" d-inline-flex">Position held: </span>
-                                        <input type="text" class="form-control" required name="p.position2" id="p.position2" placeholder="type here">
                                     </div>
-                                    <div class="form-group col-md-3">
-                                        <span class=" d-inline-flex"> Appointment Date: </span>
-                                        <span class=" d-inline-flex">
-                                            <input type="date" class="form-control" id="appointment-date2" required name="appointment-date2" placeholder="Appointment Date:">
-                                        </span>
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <span class=" d-inline-flex">Termination Date: </span>
-                                        <span class=" d-inline-flex">
-                                            <input type="date" class="form-control" id="termination-date2" required name="termination-date2" placeholder="Termination Date:">
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <input type="text" class="form-control" required name="duties2" id="duties2" placeholder="Duties & Responsibilities">
-                                </div>
-
-                                <!-- COLUMN 4 EXPERIENCE -->
-                                <div class="row">
-                                    <div class="form-group col-md-3">
-                                        <span class=" d-inline-flex">4. Employer: </span>
-                                        <input type="text" class="form-control" required name="employer3" id="employer3" placeholder="type here">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <span class=" d-inline-flex">Position held: </span>
-                                        <input type="text" class="form-control" required name="p.position3" id="p.position3" placeholder="type here">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <span class=" d-inline-flex"> Appointment Date: </span>
-                                        <span class=" d-inline-flex">
-                                            <input type="date" class="form-control" id="appointment-date3" required name="appointment-date3" placeholder="Appointment Date:">
-                                        </span>
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <span class=" d-inline-flex">Termination Date: </span>
-                                        <span class=" d-inline-flex">
-                                            <input type="date" class="form-control" id="termination-date3" required name="termination-date3" placeholder="Termination Date:">
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <input type="text" class="form-control" required name="duties3" id="duties3" placeholder="Duties & Responsibilities">
                                 </div>
                             </section>
                             <br />
@@ -455,9 +338,10 @@
                                 </div>
                                 <br />
                                 <!-- affiliation 1 -->
+                                <div id="affiliation-fields">
                                 <div class="row">
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" required name="orgarnisation" id="orgarnisation" placeholder="1. Orgarnisation">
+                                        <input type="text" class="form-control" required name="orgarnisation" id="orgarnisation" placeholder="Orgarnisation">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <span class=" d-inline-flex">Affiliation/Membership Date: </span>
@@ -466,35 +350,16 @@
                                         </span>
                                     </div>
                                 </div>
-
-                                <!-- affiliation 2 -->
-                                <div class="row">
-                                    <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" required name="orgarnisation1" id="orgarnisation1" placeholder="2. Orgarnisation">
+</div>
+<div class="row">
+                                    <div class="form-group text-center">
+                                    <div class="btn-mine btn-mineprimary">
+                                    <input type="button" value="Add More" id="add-fieldsA">
+                                    <input type="button" value="Remove" id="remove-fieldsA">
                                     </div>
-                                    <div class="form-group col-md-6">
-                                        <span class=" d-inline-flex">Affiliation/Membership Date: </span>
-                                        <span class=" d-inline-flex">
-                                            <input type="date" class="form-control" id="affiliation-date1" required name="affiliation-date1" placeholder="Affiliation Date:">
-                                        </span>
-                                    </div>
-                                    <br />
-                                    <br />
-                                </div>
-
-
-                                <!-- affiliation 3 -->
-                                <div class="row">
-                                    <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" required name="orgarnisation2" id="orgarnisation2" placeholder="3. Orgarnisation">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <span class=" d-inline-flex">Affiliation/Membership Date: </span>
-                                        <span class=" d-inline-flex">
-                                            <input type="date" class="form-control" id="affiliation-date2" required name="affiliation-date2" placeholder="Affiliation Date:">
-                                        </span>
                                     </div>
                                 </div>
+</section>
                                 <br />
                                 <br />
                         </div>
@@ -508,58 +373,31 @@
                                 </div>
                                 <br />
                                 <!-- references 1-->
+                                <div id="reference-fields">
                                 <div class="row">
                                     <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="refname" id="refname" placeholder="Name & Surname:">
+                                        <input type="text" class="form-control" required name="references[1][refname]" id="refname-1" placeholder="Name & Surname:">
                                     </div>
                                     <div class="form-group col-md-2">
-                                        <input type="text" class="form-control" required name="ref-position" id="ref-position" placeholder="Position">
+                                        <input type="text" class="form-control" required name="references[1][ref-position]" id="ref-position-1" placeholder="Position">
                                     </div>
                                     <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="ref-organisation" id="ref-organisation" placeholder="Organisation">
+                                        <input type="text" class="form-control" required name="references[1][ref-organisation]" id="ref-organisation-1" placeholder="Organisation">
                                     </div>
                                     <div class="form-group col-md-2">
-                                        <input type="number" class="form-control" required name="ref-phone" id="ref-phone" placeholder="Phone Number">
+                                        <input type="number" class="form-control" required name="references[1][ref-phone]" id="ref-phone-1" placeholder="Phone">
                                     </div>
                                     <div class="form-group col-md-2">
-                                        <input type="text" class="form-control" required name="ref-email" id="email" placeholder="Email">
+                                        <input type="text" class="form-control" required name="references[1][ref-email]" id="email-1" placeholder="Email">
                                     </div>
-                                </div>
-                                <!-- references 2-->
+                                </div>                               
+                               </div>
                                 <div class="row">
-                                    <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="refname" id="refname" placeholder="Name & Surname:">
+                                    <div class="form-group text-center">
+                                    <div class="btn-mine btn-mineprimary">
+                                    <input type="button" value="Add More" id="add-fieldsR">
+                                    <input type="button" value="Remove" id="remove-fieldsR">
                                     </div>
-                                    <div class="form-group col-md-2">
-                                        <input type="text" class="form-control" required name="ref-position" id="ref-position" placeholder="Position">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="ref-organisation" id="ref-organisation" placeholder="Organisation">
-                                    </div>
-                                    <div class="form-group col-md-2">
-                                        <input type="number" class="form-control" required name="ref-phone" id="ref-phone" placeholder="Phone Number">
-                                    </div>
-                                    <div class="form-group col-md-2">
-                                        <input type="text" class="form-control" required name="ref-email" id="email" placeholder="Email">
-                                    </div>
-                                </div>
-
-                                <!-- references 3-->
-                                <div class="row">
-                                    <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="refname" id="refname" placeholder="Name & Surname:">
-                                    </div>
-                                    <div class="form-group col-md-2">
-                                        <input type="text" class="form-control" required name="ref-position" id="ref-position" placeholder="Position">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <input type="text" class="form-control" required name="ref-organisation" id="ref-organisation" placeholder="Organisation">
-                                    </div>
-                                    <div class="form-group col-md-2">
-                                        <input type="number" class="form-control" required name="ref-phone" id="ref-phone" placeholder="Phone Number">
-                                    </div>
-                                    <div class="form-group col-md-2">
-                                        <input type="text" class="form-control" required name="ref-email" id="email" placeholder="Email">
                                     </div>
                                 </div>
 
