@@ -121,7 +121,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-4">
-                                        <input type="text" class="form-control" id="postal_code-res-address" required name="postal_code-res-address" placeholder="Postal Code">
+                                        <input type="number" class="form-control" id="postal_code-res-address" required name="postal_code-res-address" placeholder="Postal Code">
                                     </div>
                                 </div>
                             </section>
@@ -171,7 +171,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-4">
-                                        <input type="text" class="form-control" id="postal_code-postal-address" required name="postal_code-postal-address" placeholder="Postal Code">
+                                        <input type="number" class="form-control" id="postal_code-postal-address" required name="postal_code-postal-address" placeholder="Postal Code">
                                     </div>
                                 </div>
                             </section>
