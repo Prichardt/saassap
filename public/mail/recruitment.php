@@ -61,23 +61,64 @@ $qyear_completed5 = $_POST["qualifications[5][year-completed]"];
 
 //Previous Experience
 
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
-$name = $_POST["name"];
+$p_employer1 = $_POST["experience[1][employer]"];
+$p_employer2 = $_POST["experience[1][employer]"];
+$p_employer3 = $_POST["experience[1][employer]"];
+$p_employer4 = $_POST["experience[1][employer]"];
+
+
+$p_position1 = $_POST["experience[1][p.position]"];
+$p_position2 = $_POST["experience[2][p.position]"];
+$p_position3 = $_POST["experience[3][p.position]"];
+$p_position4 = $_POST["experience[4][p.position]"];
+
+$appointment_date1 = $_POST["experience[1][appointment-date]"];
+$appointment_date2 = $_POST["experience[2][appointment-date]"];
+$appointment_date3 = $_POST["experience[3][appointment-date]"];
+$appointment_date4 = $_POST["experience[4][appointment-date]"];
+
+$termination_date1 = $_POST["experience[1][termination-date]"];
+$termination_date2 = $_POST["experience[2][termination-date]"];
+$termination_date3 = $_POST["experience[3][termination-date]"];
+$termination_date4 = $_POST["experience[4][termination-date]"];
+
+$duties1 = $_POST["experience[1][duties]"];
+$duties2 = $_POST["experience[2][duties]"];
+$duties3 = $_POST["experience[3][duties]"];
+$duties4 = $_POST["experience[4][duties]"];
+
+//Professional Organisation Affiliation
+
+$organisation1 = $_POST["affiliation[1][orgarnisation]"];
+$organisation2 = $_POST["affiliation[2][orgarnisation]"];
+$organisation3 = $_POST["affiliation[3][orgarnisation]"];
+$organisation4 = $_POST["affiliation[4][orgarnisation]"];
+
+$affiliation_date1 = $_POST["affiliation[1][affiliation-date]"];
+$affiliation_date2 = $_POST["affiliation[2][affiliation-date]"];
+$affiliation_date3 = $_POST["affiliation[3][affiliation-date]"];
+$affiliation_date4 = $_POST["affiliation[4][affiliation-date]";
+
+//references
+
+$refname1 = $_POST["references[1][refname]"];
+$refname2 = $_POST["references[2][refname]"];
+$refname3 = $_POST["references[3][refname]"];
+
+$refposition1 = $_POST["references[1][ref-position]"];
+$refposition2 = $_POST["references[2][ref-position]"];
+$refposition3 = $_POST["references[3][ref-position]"];
+
+$reforg1 = $_POST["references[1][ref-organisation]"];
+$reforg2 = $_POST["references[2][ref-organisation]"];
+$reforg3 = $_POST["references[3][ref-organisation]"];
+
+$refphone1 = $_POST["references[1][ref-phone]"];
+$refphone2 = $_POST["references[2][ref-phone]"];
+$refphone3 = $_POST["references[3][ref-phone]"];
+
+$refemail1 = $_POST["references[1][ref-email]"];
+$refemail2 = $_POST["references[2][ref-email]"];
+$refemail3 = $_POST["references[3][ref-email]"];
+
+

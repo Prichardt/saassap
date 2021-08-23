@@ -341,12 +341,12 @@
                                 <div id="affiliation-fields">
                                 <div class="row">
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" required name="orgarnisation" id="orgarnisation" placeholder="Orgarnisation">
+                                        <input type="text" class="form-control" required name="affiliation[1][orgarnisation]" id="orgarnisation" placeholder="Orgarnisation">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <span class=" d-inline-flex">Affiliation/Membership Date: </span>
                                         <span class=" d-inline-flex">
-                                            <input type="date" class="form-control" id="affiliation-date" required name="affiliation-date" placeholder="Affiliation Date:">
+                                            <input type="date" class="form-control" id="affiliation-date" required name="affiliation[1][affiliation-date]" placeholder="Affiliation Date:">
                                         </span>
                                     </div>
                                 </div>
