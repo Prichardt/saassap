@@ -1,4 +1,4 @@
-<section class="  bg-white saassap">
+<section class="  bg-white saassap application-page">
     <div class=" container pb-5 pt-2 ">
     <div class=" text-center">
                         <blockquote class="blockquote text-center">
@@ -8,7 +8,7 @@
                             <br /> -->
                         </blockquote>
                     </div>
-        <form class="quote_form" action="public/mail/mover.php" method="POST">
+        <form class="quote_form shadow-sm" action="public/mail/mover.php" method="POST">
             <div>
                 <!-- STEP ONE OF REQUEST QUOTE FORM -->
                 <div>
@@ -16,9 +16,9 @@
                     <div class=" text-center">
                         <blockquote class="blockquote text-center">
                             <!-- <p class="mb-0 h1">Application for Employment </p> -->
-                            <br />
+                            
                             <footer class="blockquote-footer h2">Personal Information</footer>
-                            <br />
+                            
                         </blockquote>
                     </div>
                     <div>
@@ -440,7 +440,7 @@
                         <div class="col-lg-12">
                         <section>
                         <div class="row text-center1">
-                            <button type="submit" class="btn-mine btn-mineprimary" onclick="submitBtn();">Submit</button>
+                            <button type="submit" class="btn btn-submit btn-primary" onclick="submitBtn();">Submit</button>
                         </div>
                         </section>
                         </div>

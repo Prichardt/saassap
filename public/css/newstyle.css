@@ -1,6 +1,37 @@
-.fields-remove-btn {
-    position: relative;
-    margin-top: -3.7rem;
-    height: 2rem;
-    right: -100%;
+.application-page form {
+  padding: 2rem;
+  background-color: #D6E2E3;
+  border-radius: 1rem;
 }
+
+.application-page form input[type="button"] {
+  background-color: #375D86;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+
+.application-page form input[type="button"]:hover {
+  background-color: #ffffff;
+  border: 1px solid #375D86;
+  color: #375D86;
+}
+
+.application-page form .btn-submit {
+  background-color: #375D86;
+  color: #ffffff;
+}
+
+.application-page form .btn-submit:hover {
+  background-color: #ffffff;
+  color: #375D86;
+  border: solid 1px #375D86;
+}
+
+.application-page .fields-remove-btn {
+  position: relative;
+  margin-top: -3.7rem;
+  height: 2rem;
+  right: -100%;
+}
+/*# sourceMappingURL=newstyle.css.map */
