@@ -32,13 +32,11 @@
             $('#educational-fields').children().last().remove();
         });
 
-    });
-})(jQuery);
+
 
 //Code for adding and removing employment history
 
-(function ($) {
-    $(document).ready(function () {
+
 
         $('#add-fieldsX').on('click', function () {
             let n = $("#experience-fields .row").length;
@@ -75,13 +73,10 @@
             $('#experience-fields').children().last().remove();
         });
 
-    });
-})(jQuery);
+
 
 //CODE FOR ADDING OR REMOVING REFERENCES
 
-(function ($) {
-    $(document).ready(function () {
 
         $('#add-fieldsR').on('click', function () {
             let n = $("#reference-fields .row").length;
@@ -110,13 +105,10 @@
             $('#reference-fields').children().last().remove();
         });
 
-    });
-})(jQuery);
+
 
 //code for adding and removing affiliation
 
-(function ($) {
-    $(document).ready(function () {
 
         $('#add-fieldsA').on('click', function () {
             let n = $("#affiliation-fields .row").length;

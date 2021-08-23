@@ -21,9 +21,9 @@
 	<link rel="stylesheet" href="public/css/ionicons.min.css">
 
 	<link rel="stylesheet" href="public/css/flaticon.css">
-	<link rel="stylesheet" href="public/css/icomoon.css">
-	<link rel="stylesheet" href="public/css/newstyle.css">
+	<link rel="stylesheet" href="public/css/icomoon.css">	
 	<link rel="stylesheet" href="public/scss/style.css">
+	<link rel="stylesheet" href="public/css/newstyle.css">
 </head>
 
 <body>
