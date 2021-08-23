@@ -90,24 +90,24 @@
 
                                 <div class="row">
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="address1" required name="address1" placeholder="Number, Unit and/or Floor, Apartment">
+                                        <input type="text" class="form-control" id="res-address" required name="res-address" placeholder="Number/Unit/Apartment">
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="street-ad1" required name="street-ad1" placeholder="Street Name">
+                                        <input type="text" class="form-control" id="street-res-address" required name="street-res-address" placeholder="Street Name">
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="city-ad1" required name="city-ad1" placeholder="City">
+                                        <input type="text" class="form-control" id="city-res-address" required name="city-res-address" placeholder="City">
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="surbub-ad1" required name="surbub-ad1" placeholder="Suburb">
+                                        <input type="text" class="form-control" id="surbub-res-address" required name="surbub-res-address" placeholder="Suburb">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-group col-md-8">
-                                        <select id="province-ad1" required name="province-ad1" class="form-control" aria-placeholder="select province">
+                                        <select id="province-res-address" required name="province-res-address" class="form-control" aria-placeholder="select province">
                                             <option value="" selected select disabled>Choose Province</option>
                                             <option value="Western Cape">Western Cape</option>
                                             <option value="Eastern Cape">Eastern Cape</option>
@@ -121,7 +121,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-4">
-                                        <input type="text" class="form-control" id="postal_code1" required name="postal_code1" placeholder="Postal Code">
+                                        <input type="text" class="form-control" id="postal_code-res-address" required name="postal_code-res-address" placeholder="Postal Code">
                                     </div>
                                 </div>
                             </section>
@@ -140,24 +140,24 @@
 
                                 <div class="row">
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="address2" required name="address2" placeholder="Number, Unit and/or Floor, Apartment">
+                                        <input type="text" class="form-control" id="postal-address" required name="postal-address" placeholder="Number/Unit/Apartment">
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="street-ad2" required name="street-ad2" placeholder="Street Name">
+                                        <input type="text" class="form-control" id="street-postal-address" required name="street-postal-address" placeholder="Street Name">
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="city-ad2" required name="city-ad2" placeholder="City">
+                                        <input type="text" class="form-control" id="city-postal-address" required name="city-postal-address" placeholder="City">
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="surbub-ad2" required name="surbub-ad2" placeholder="Suburb">
+                                        <input type="text" class="form-control" id="surbub-postal-address" required name="surbub-postal-address" placeholder="Suburb">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-group col-md-8">
-                                        <select id="province-ad2" required name="province-ad2" class="form-control" aria-placeholder="select province">
+                                        <select id="province-postal-address" required name="province-postal-address" class="form-control" aria-placeholder="select province">
                                             <option value="" selected select disabled>Choose Province</option>
                                             <option value="Western Cape">Western Cape</option>
                                             <option value="Eastern Cape">Eastern Cape</option>
@@ -171,7 +171,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-4">
-                                        <input type="text" class="form-control" id="postal_code2" required name="postal_code2" placeholder="Postal Code">
+                                        <input type="text" class="form-control" id="postal_code-postal-address" required name="postal_code-postal-address" placeholder="Postal Code">
                                     </div>
                                 </div>
                             </section>
