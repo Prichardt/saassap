@@ -193,7 +193,7 @@
                                 <div>
                                     <div class="row">
                                         <div class="form-group col-lg-6">
-                                            <select id="drug_test" required name="drug_test" class="form-control" aria-placeholder="If Selected for Employment Are You Willing to Submit to a Pre-Employment Drug Screening Test?">
+                                            <select id="desired_position" required name="desired_position" class="form-control" aria-placeholder="If Selected for Employment Are You Willing to Submit to a Pre-Employment Drug Screening Test?">
                                                 <option value="" selected select disabled>What is the position You Are Applying For? </option>
                                                 <option value="Chief Administrative Officer (CAO)">1. Chief Administrative Officer (CAO)</option>
                                                 <!-- add more positions as they are advertised here -->
